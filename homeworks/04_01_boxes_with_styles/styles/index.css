@@ -9,6 +9,11 @@
   margin: 0 20px;
 }
 
+/*Стилі для класу homepage*/
+.homepage {
+  margin-top: 20px;
+}
+
 /*Стилі до класу squares*/
 .squares {
   margin-top: 20px;
