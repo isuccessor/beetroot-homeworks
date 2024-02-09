@@ -1,0 +1,68 @@
+/*Стилі до класу app*/
+.app {
+  max-width: 900px;
+  margin: 0px auto auto 100px;
+}
+
+/*Стилі до класу wrapper*/
+.wrapper {
+  margin: 0 20px;
+}
+
+/*Стилі до класу squares*/
+.squares {
+  margin-top: 20px;
+  border: 2px solid pink;
+  width: 104px;
+  height: auto;
+}
+
+/*Стилі до класу figure*/
+.figure {
+  width: 100px;
+  height: 100px;
+}
+
+/*Стилі до першого елементу класу square*/
+.square:first-child {
+  background-color: red;
+}
+
+/*Стилі до другого елементу класу square*/
+.squares > .square:nth-child(2) {
+  background-color: rgb(107, 255, 107);
+}
+
+/*Стилі до останнього елементу класу square*/
+.square:last-child {
+  background-color: blue;
+}
+
+/*Стилі для всіх елементів класу square крім останнього*/
+.square:not(:first-child) {
+  margin-top: 20px;
+}
+
+/*Стилі для класу circle*/
+.circle {
+  border-radius: 50%;
+  background-color: grey;
+  margin-top: 20px;
+}
+
+/*Стилі для класу content*/
+.content {
+  margin-left: 40px;
+  margin-top: 20px
+}
+
+/*Стилі для h1 класу content*/
+.content > h1 {
+  font-size: 20px;
+  margin-top: 40px;
+} 
+
+/*Стилі до останнього елементу класу info_text*/
+.info_text:last-child {
+  margin-top: 40px
+}

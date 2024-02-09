@@ -1,0 +1,60 @@
+/*Початок стилів до класу main*/
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+/*Кінець стилів до класу main*/
+
+/*Стилі для класу wrapper*/
+.wrapper {
+  margin: 0 20px;
+}
+
+/*Стилі для класу homepage*/
+.homepage {
+  margin-top: 20px;
+}
+
+/*Стилі для тега img класу img*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Стилі для заголовку h1*/
+.wrapper > h1  {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;;
+}
+
+/*Стилі для класу image*/
+.image {
+  margin-top: 20px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/*Стилі для класу content*/
+.content {
+  margin-top: 20px;
+}
+
+/*Стилі для тегів p класу content*/
+.content>p {
+  margin-top: 10px;
+}
+
+/*Стилі для посилань*/
+a:hover {
+  color: red;
+}
+
+/*Добавив псевдоелемен тегу span класу content*/
+.content > p > span::after {
+  content: " :)";
+}
+
+
+
+
