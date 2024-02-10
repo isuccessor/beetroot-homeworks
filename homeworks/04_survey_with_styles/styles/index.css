@@ -16,8 +16,8 @@
 }
 
 /*Стилі для тега img класу img*/
-img {
-  width: 800px;
+.image {
+  width: 100%;
   border-radius: 30px;
 }
 
@@ -29,8 +29,9 @@ img {
 }
 
 /*Стилі для класу image*/
-.image {
+.wrapper-image {
   margin-top: 20px;
+  overflow: hidden;
 }
 
 /*Стилі для класу content*/

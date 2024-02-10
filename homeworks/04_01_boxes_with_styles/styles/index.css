@@ -68,5 +68,5 @@
 
 /*Стилі до останнього елементу класу info_text*/
 .info_text:last-child {
-  margin-top: 40px
+  margin-top: 40px;
 }
