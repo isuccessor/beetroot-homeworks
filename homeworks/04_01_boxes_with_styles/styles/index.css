@@ -17,7 +17,6 @@
 /*Стилі до класу squares*/
 .squares {
   margin-top: 20px;
-  border: 2px solid pink;
   width: 104px;
   height: auto;
 }

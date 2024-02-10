@@ -17,22 +17,20 @@
 
 /*Стилі для тега img класу img*/
 img {
-  max-width: 100%;
-  height: auto;
+  width: 800px;
+  border-radius: 30px;
 }
 
 /*Стилі для заголовку h1*/
 .wrapper > h1  {
   font-size: 30px;
   text-align: center;
-  margin-top: 20px;;
+  margin-top: 20px;
 }
 
 /*Стилі для класу image*/
 .image {
   margin-top: 20px;
-  border-radius: 30px;
-  overflow: hidden;
 }
 
 /*Стилі для класу content*/
