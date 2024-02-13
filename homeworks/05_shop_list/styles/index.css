@@ -1,0 +1,133 @@
+/*Стилі для body*/
+body {
+  background-color: #3b3f45;
+  font-family: sans-serif;
+}
+
+.homepage {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: #ff8984;
+  display: flex;
+}
+
+.homepage a {
+  padding: 5px;
+}
+
+.homepage a:visited {
+  color: #ff8984;
+}
+
+/*Стилі для класу wrapper*/
+.wrapper {
+  max-width: 585px;
+  margin: 0 auto;
+}
+
+/* *Стилі header*/
+.header {
+  background-color: #4a4f56;
+  text-align: center;
+  color: #ff8984;
+  height: 82px;
+}
+
+.header_title {
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.header_subtitle {
+  font-size: 14px;
+}
+
+/* *Cтилі секції List */
+.list-form {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item-label {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #fff;
+}
+
+.item-title {
+  font-size: 18px;
+}
+
+.list-form-item {
+  background-color: #88839e;
+  height: 45px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  transition: all 0.1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.list-form-item:hover {
+  border-color: #fff;
+  background-color: #625e77;
+}
+
+.list-form-item:nth-child(2n) {
+  background-color: #7a7593;
+}
+
+.list-form-item:active {
+  background-color: #ff8984;
+  opacity: 0.7;
+}
+
+.item-title {
+  font-size: 18px;
+}
+
+.item-subtitle {
+  font-size: 10px;
+}
+
+.item-checkbox:checked ~ span {
+  text-decoration: line-through;
+}
+
+/* * Мій головний біль */
+.item-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.item-checkbox:checked::after {
+  content: "";
+  background-image: url(../svg/check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: relative;
+  top: 3px;
+}
+
+/*Cтилі для button*/
+.list-button {
+  appearance: none;
+  border: none;
+  margin-top: 45px;
+  width: 100%;
+  height: 45px;
+  color: #ff8984;
+  background-color: #4a4f56;
+  cursor: pointer;
+}
