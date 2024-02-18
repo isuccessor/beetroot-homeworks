@@ -1,0 +1,162 @@
+/*Стилі для секції about*/
+.about {
+  width: 100%;
+  height: 100vh;
+
+  &-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-title {
+    font-family: var(--main-font-title);
+    font-weight: 900;
+    font-size: 60px;
+    color: var(--main-color-site);
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &-subtitle {
+    font-family: var(--main-font-text);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--sub-color-site);
+  }
+
+  &-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+
+    &::after {
+      content: '';
+      height: 1px;
+      min-width: 210px;
+      width: 100%;
+      background-color: var(--main-color-site);
+      position: absolute;
+      top: calc(50% - 1px);
+    }
+
+    &::before {
+      content: '';
+      height: 1px;
+      min-width: 210px;
+      width: 100%;
+      background-color: var(--main-color-site);
+      position: absolute;
+      top: calc(50% - 1px);
+      left: -210px;
+    }
+  }
+
+  &-content {
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    position: relative;
+  }
+
+  &-image {
+    max-width: 430px;
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    position: relative;
+  }
+
+  &-image img {
+    border: 1px solid var(--main-color-site);
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 430px;
+  }
+
+  &-info-title {
+    font-family: var(--main-font-title);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  &-info-subtitle {
+    font-family: var(--main-font-text);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--sub-color-site);
+    font-weight: 400px;
+  }
+
+  &-info-social {
+    margin-bottom: 50px;
+  }
+
+  &-list {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  &-item {
+    max-height: 30px;
+    max-width: 30px;
+  }
+
+  &-link {
+    display: flex;
+  }
+
+  &-text {
+    text-align: center;
+    font-family: var(--main-font-text);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  &-line {
+    position: absolute;
+    height: 560px;
+    width: 1px;
+    background-color: var(--main-color-site);
+  }
+
+  &-button-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-button {
+    all: unset;
+    height: 25px;
+    padding: 0 10px;
+    font-family: var(--main-font-button);
+    font-weight: 700px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border: 1px solid var(--main-color-site);
+    color: var(--sub-color-site);
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: var(--main-color-site);
+    }
+  }
+}
+

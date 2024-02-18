@@ -1,0 +1,40 @@
+/*Стилі для border*/
+.left-top-border {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-top: 1px solid var(--main-color-site);
+  border-left: 1px solid var(--main-color-site);
+  top: 0;
+  left: 0;
+}
+
+.right-top-border {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-top: 1px solid var(--main-color-site);
+  border-right: 1px solid var(--main-color-site);
+  top: 0;
+  right: 0;
+}
+
+.left-botom-border {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-bottom: 1px solid var(--main-color-site);
+  border-left: 1px solid var(--main-color-site);
+  left: 0;
+  bottom: 0;
+}
+
+.right-botom-border {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-bottom: 1px solid var(--main-color-site);
+  border-right: 1px solid var(--main-color-site);
+  right: 0;
+  bottom: 0;
+}
