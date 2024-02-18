@@ -1,0 +1,44 @@
+.button {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 45px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &--signin {
+    background-color: var(--main-color-site);
+    border-color: var(--border-color-button);
+    color: var(--main-color-text);
+
+    &:hover {
+      background-color: var(--border-color-button);
+      color: var(--main-color-site);
+    }
+  }
+
+  &--signup {
+    background-color: var(--main-color-button);
+    color: var(--main-color-site);
+
+    &:hover {
+      background-color: black;
+      border-color: var(--hover-color-text);
+    }
+  }
+
+  &--hero {
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: var(--main-color-button);
+    color: var(--main-color-site);
+
+    &:hover {
+      background-color: black;
+      border-color: var(--hover-color-text);
+    }
+  }
+}

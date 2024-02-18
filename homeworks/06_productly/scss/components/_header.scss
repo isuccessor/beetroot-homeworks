@@ -1,0 +1,22 @@
+/*Стилі для header*/
+.header {
+  min-height: 80px;
+  width: 100%;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  &-logo {
+    display: flex;
+  }
+
+  &-buttons {
+    display: flex;
+    gap: 30px;
+  }
+}
