@@ -1,0 +1,11 @@
+/*Стилі для header*/
+.header {
+  border-bottom: 1px solid #EFEEF3;
+  width: 100%;
+  height: fit-content;
+  &-wrapper {
+    width: 100%;
+    height: fit-content;
+    padding: 25px 0;
+  }
+}

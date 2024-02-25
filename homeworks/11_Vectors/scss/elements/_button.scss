@@ -1,0 +1,10 @@
+/*Стилі для класу button*/
+.button {
+  cursor: pointer;
+  padding: 5px;
+  font-family: var(--main-font-site);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: var(--main-color-hover);
+}
