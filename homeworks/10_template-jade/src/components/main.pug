@@ -1,0 +1,79 @@
+include ../elements/index
+<!--Змінні для міст-->
+- var cities = ['Lisbon', 'Paris', 'Belgrade', 'Venice', 'Tel-Avive', 'Cair', 'New-York', 'New-Delhi', 'San-Francisco', 'Tokyo', 'Sydney']
+<!--Змінні для температури-->
+-var temperature = ['21','11','15','32','17','8','25']
+<!--Mixin для main-->
+mixin main()
+  .main
+    .wrapper
+      +main-title
+      .main-blocks
+        .main-block.block--middle.block--dustyblue
+          .main-subtitle #{cities[0]} 
+          .main-content 
+            .main-text #{temperature[0]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-sunny.svg" alt="icon")
+        .main-block.block--turquoise
+          .main-subtitle #{cities[1]} 
+          .main-content 
+            .main-text #{temperature[1]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-cloudy-high.svg" alt="icon")
+        .main-block.block--dustypink
+          .main-subtitle #{cities[2]} 
+          .main-content 
+            .main-text #{temperature[2]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-hail.svg" alt="icon")
+        .main-block.block--red
+          .main-subtitle #{cities[3]} 
+          .main-content 
+            .main-text #{temperature[0]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-rain-mix.svg" alt="icon")
+        .main-block.block--orange
+          .main-subtitle #{cities[4]}  
+          .main-content 
+            .main-text #{temperature[3]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-sunny.svg" alt="icon")
+        .main-block.block--yellow
+          .main-subtitle #{cities[5]} 
+          .main-content 
+            .main-text #{temperature[0]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-hail.svg" alt="icon")
+        .main-block.block--lightgreen
+          .main-subtitle #{cities[6]} 
+          .main-content 
+            .main-text #{temperature[4]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-sunny.svg" alt="icon")
+        .main-block.block--lightgray
+          .main-subtitle #{cities[7]} 
+          .main-content 
+            .main-text #{temperature[4]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-cloudy-high.svg" alt="icon")
+        .main-block.block--middle.block--pink
+          .main-subtitle #{cities[8]} 
+          .main-content 
+            .main-text #{temperature[2]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-rain-mix.svg" alt="icon")
+        .main-block.block--darkgreen
+          .main-subtitle #{cities[9]} 
+          .main-content 
+            .main-text #{temperature[5]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-sunny.svg" alt="icon")
+        .main-block.block--large.block--dustypurple
+          .main-subtitle #{cities[10]} 
+          .main-content 
+            .main-text #{temperature[6]}&#176C
+            .main-icon 
+              img(src="./assets/wi-day-hail.svg" alt="icon")
+      +main-info
+        
