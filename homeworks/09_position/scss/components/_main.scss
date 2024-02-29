@@ -15,10 +15,6 @@
   &-shapes {
     width: 100%;
     height: 100%;
-
-    &:hover {
-      animation: rotateAnimation 5s linear infinite;
-    }
   }
   /*Стилі для класу main-circle-big*/
   &-circle-big {
@@ -155,4 +151,8 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.active {
+  animation: rotateAnimation 5s linear infinite;
 }
