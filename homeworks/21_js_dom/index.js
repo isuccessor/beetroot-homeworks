@@ -1,4 +1,6 @@
 /*Створити сторінку, що показує нумерований список пісень*/
+import createList from './js/create-list.js';
+
 const playList = [{
     author: "LED ZEPPELIN",
     song: "STAIRWAY TO HEAVEN"
@@ -33,5 +35,9 @@ const playList = [{
   }
 ];
 
+
+
 const DOMList = document.getElementById('js-list');
-createList(playList, DOMList);
+if (DOMList) {
+  createList(playList, DOMList);
+}
